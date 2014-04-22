@@ -1,0 +1,55 @@
+/* Your Website Styles */
+body{
+	background: url("../img/bg.png");
+}
+img{ 
+   	width: 350px;
+    border-radius: 20px 20px;
+    box-shadow: 10px 10px 10px black;
+}
+nav a:link {
+  color: #C95E6E;
+  }
+
+nav a:visited {
+  color: #0B2222;
+}
+
+h1 { color: #C95E6E;
+	font-family: 'Balthazar', serif;
+    letter-spacing: 4px	;
+    text-transform: uppercase;
+ 	}
+
+    h3{ width:110px;
+      color:#915430;
+      font-family: 'Nunito', sans-serif;
+      letter-spacing: 4px;
+      box-shadow: 5px 5px 5px black;
+      }
+    h4{color: #81CFD5;
+  font-family: 'Balthazar', serif;
+    letter-spacing: 2px ;
+    text-transform: uppercase;
+
+}
+    p { 
+      line-height: 15px;
+      padding: 10px 50px;
+     background: #C95E6E;
+    border: 6px solid #ccc;
+    max-width: 400px;
+    max-height: 200px;
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   overflow: auto;
+   width: 350px 
+    }
+
+
+
+ 
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
